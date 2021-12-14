@@ -273,7 +273,7 @@
   }
   .heading h2,
   .page-content .content-block h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
   .portfolio .gallery .projs-item {
     width: calc(100% - 50px);
@@ -402,6 +402,9 @@
 @media all  and (max-width: 480px){
   sections-wrapper .section-slider .project .project-info h1{
     font-size: 15px;
+  }
+  .client .content-client .client-curs .client-item h3{
+    font-size: 20px;
   }
 
     

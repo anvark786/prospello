@@ -863,7 +863,7 @@ h3 {
 }
 
 h4.space {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 2%;
 }
 
@@ -954,6 +954,7 @@ main.root {
 
 .heading.heading-light h2 {
   color: #000;
+  text-align: center;
 }
 
 .heading h6 {
@@ -983,7 +984,8 @@ main.root {
   font-size: 42px;
   font-weight: 600;
   line-height: 1;
-  padding-bottom: 15px;
+  margin-bottom: 40px;
+;
 }
 
 .section-title {
