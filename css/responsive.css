@@ -107,13 +107,13 @@
   }
   .sections-wrapper .section-slider .project .project-info h1 {
     padding: 3.125vw 0 3.125vw 0;
-    font-size: 8.5vw;
+    font-size: 40px;
   }
   .sections-wrapper .section-slider .project {
     padding: 0;
   }
   .dsn-header-hero .name-title h1 {
-    font-size: 8.5vw;
+    font-size: 40px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -288,7 +288,7 @@
   }
   .sections-wrapper .section-slider .project .project-info h1 {
     padding: 3.125vw 0 3.125vw 0;
-    font-size: 8.5vw;
+    font-size: 30px;
   }
   .services .services-wp .box-title-services,
   .services .services-wp .content {
@@ -363,4 +363,46 @@
   .client-brand .brand-container .brand-item {
     width: 100%;
   }
+}
+@media all  and (max-width: 1280px){
+  .sections-wrapper .section-slider .project .project-info h1{
+    font-size: 30px;
+  }
+
+
+}
+
+@media all  and (max-width: 980px){
+  .sections-wrapper .section-slider .project .project-info h1{
+      font-size: 16px;
+  }
+
+
+}
+@media all  and (max-width: 768px){
+  sections-wrapper .section-slider .project .project-info h1{
+    font-size: 25px;
+  }
+
+}
+
+@media all  and (max-width: 648px){
+  sections-wrapper .section-slider .project .project-info h1{
+    font-size: 20px;
+  }
+
+}
+
+@media all  and (max-width: 480px){
+  sections-wrapper .section-slider .project .project-info h1{
+    font-size: 15px;
+  }
+
+    
+@media all  and (max-width: 360px){
+  sections-wrapper .section-slider .project .project-info h1{
+    font-size: 10px;
+  }
+
+    
 }

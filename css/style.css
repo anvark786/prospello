@@ -2719,7 +2719,7 @@ main.root.dsn-animate .content-background, main.root.dsn-animate .page-content {
 .sections-wrapper .section-slider .project .project-info h1 {
   position: relative;
   padding: 3.125vw 2.1875vw 3.125vw 2vw;
-  font-size: 4vw;
+  font-size: 40px;
   text-transform: uppercase;
   color: #fff;
   max-width: 100vw;
