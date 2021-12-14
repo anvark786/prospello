@@ -231,6 +231,12 @@
   .next-proj .slick-list h2 {
     font-size: 34px;
   }
+  .col-lg-4.offset-lg-1{
+    text-align: center;
+  }
+  .btn-custom{
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 767px) {
