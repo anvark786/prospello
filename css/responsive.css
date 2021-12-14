@@ -93,7 +93,8 @@
     display: none !important;
   }
   .header-top .header-container .logo img {
-    height: auto;
+    width: 100%;
+    max-height: 50px;
   }
   [data-dsn-grid="progress-circle"] {
     display: none;
