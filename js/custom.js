@@ -1,3 +1,14 @@
+
+// $(window).on("load", function () {
+
+//   $("body").imagesLoaded({
+//     background: true
+//   }, function () {
+//     $(".page-loader div").fadeOut();
+//     $(".page-loader").delay(200).fadeOut("slow");
+//   });
+
+
 (function ($) {
 
     "use strict";

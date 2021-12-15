@@ -954,7 +954,7 @@ main.root {
 
 .heading.heading-light h2 {
   color: #000;
-  text-align: center;
+  margin: unset;
 }
 
 .heading h6 {
@@ -1983,6 +1983,7 @@ main.root {
   top: 100%;
   height: unset;
   position: relative;
+  padding-top: 100px;
 }
 
 .nav .inner .logo {
@@ -1999,7 +2000,7 @@ main.root {
 }
 
 .nav .inner address {
-  margin-top: 30px;
+  margin-top: 100px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.7;
@@ -2048,6 +2049,7 @@ main.root {
   position: relative;
   display: block;
   color: #fff;
+  margin-bottom: 15px;
 }
 
 .nav__list-item a:hover {
@@ -3682,7 +3684,14 @@ main.root.dsn-animate .content-background, main.root.dsn-animate .page-content {
 }
 
 .page-content .box-seat .pro-text p {
-  margin-left: 70px;
+  font-size: 15px;
+}
+.page-content .box-seat .pro-text ul li{
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.page-content .box-seat .pro-text ul li h3{
+  margin: 10px 0;
 }
 
 .page-content .box-gallery-vertical {
@@ -4151,7 +4160,7 @@ section.hero .hero-mediawrap .hero-media .text-part h5 {
 
 .client .content-client .client-curs .client-item div {
   position: relative;
-  padding-left: 50px;
+  
 }
 
 /*.client .content-client .client-curs .client-item div:before {
@@ -4166,10 +4175,10 @@ section.hero .hero-mediawrap .hero-media .text-part h5 {
 }*/
 
 .client .content-client .client-curs .client-item h5 {
-  font-size: 12px;
-  color: #434343;
-  letter-spacing: 2px;
-  margin-top: 15px;
+  
+  color: #000;
+  line-height: 27px;
+  text-align: justify;
 }
 
 .client .content-client .client-curs .client-item h3 {
@@ -4177,6 +4186,7 @@ section.hero .hero-mediawrap .hero-media .text-part h5 {
   color: #000;
   font-size: 26px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .client .content-client .client-curs .slick-arrow {
@@ -4696,5 +4706,33 @@ select option:first-child{
 }
 .name-title h1{
   font-size: 50px;
+}
+.client-brand .heading h5{
+  line-height: 25px;
+  color: gray;
+}
+.client-brand .container .t-link div{
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+}
+.client-brand .container .t-link div img {
+  width: 30px;
+  margin-left: 20px;
+}
+}
+.client-brand .container .t-link .span{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.dsn-header-hero .box-info-wrap .container iframe{
+  width: 500px;
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
