@@ -421,14 +421,36 @@
     font-size: 27px;
 
 }
+@media all and (max-width: 580px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 24px;
 
+}
+@media all and (max-width: 520px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 21px;
 
-
-
+}
 @media all  and (max-width: 480px){
   .sections-wrapper .section-slider .project .project-info h1{
-    font-size: 17px;
+    font-size: 19px;
   }
+}
+@media all and (max-width: 460px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 17px;
+
+  }
+  .sections-wrapper .section-slider .project .project-info .subtitle{
+    font-size: 9px;
+  }
+}
+@media all and (max-width: 440px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 15px;
+
+  }
+
   .client .content-client .client-curs .client-item h3{
     font-size: 17px;
   }
@@ -440,14 +462,29 @@
     height: 350px;
   }
 
-    
+}
 @media all  and (max-width: 360px){
   .sections-wrapper .section-slider .project .project-info h1{
     font-size: 14px;
   }
+  .sections-wrapper .section-slider .project .project-info .subtitle {
+    font-size: 8px;
+  }
   .page-content .content-block p{
     font-size: 10px;
   }
-
     
+}
+@media all  and (max-width: 320px){
+  .sections-wrapper .section-slider .project .project-info h1{
+    font-size: 10px;
+  }
+}
+@media all  and (max-width: 280px){
+  .sections-wrapper .section-slider .project .project-info h1{
+    font-size: 8px;
+  }
+  .sections-wrapper .section-slider .project .project-info .subtitle{
+    font-size: 6px
+  }
 }
