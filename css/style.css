@@ -1660,6 +1660,7 @@ main.root {
   padding: 0 50px;
   max-width: none;
   margin: 0 auto;
+  align-items: center;
 }
 
 .site-header .extend-container .inner-header {
