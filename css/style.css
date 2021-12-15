@@ -4736,4 +4736,8 @@ select option:first-child{
   width: 500px;
   height: 500px;
 }
+#text-area textarea{
+  width: 100%;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */

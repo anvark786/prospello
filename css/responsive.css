@@ -240,6 +240,12 @@
 }
 
 @media (max-width: 767px) {
+  .header-top .header-container .logo img {
+    max-height: 24px;
+  }
+  .dsn-header-hero .name-title h1 span{
+    font-size: 24px
+  }
   .loading-page .loadin-wrapper .dsn-progress {
     width: 40vw;
   }
@@ -388,32 +394,40 @@
 
 @media all  and (max-width: 980px){
   .sections-wrapper .section-slider .project .project-info h1{
-      font-size: 16px;
+      font-size: 36px;
   }
 
 
 }
 @media all  and (max-width: 768px){
   .sections-wrapper .section-slider .project .project-info h1{
-    font-size: 25px;
+    font-size: 36px;
   }
  
 
 }
+@media all and (max-width: 743px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 33px;
 
-@media all  and (max-width: 648px){
-  .sections-wrapper .section-slider .project .project-info h1{
-    font-size: 20px;
-  }
-  h4.space{
-    font-size: 20px;
-  }
+}
+@media all and (max-width: 743px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 33px;
+
+}
+@media all and (max-width: 688px){
+  .sections-wrapper .section-slider .project .project-info h1 {
+    font-size: 27px;
 
 }
 
+
+
+
 @media all  and (max-width: 480px){
   .sections-wrapper .section-slider .project .project-info h1{
-    font-size: 15px;
+    font-size: 17px;
   }
   .client .content-client .client-curs .client-item h3{
     font-size: 17px;
@@ -429,7 +443,7 @@
     
 @media all  and (max-width: 360px){
   .sections-wrapper .section-slider .project .project-info h1{
-    font-size: 10px;
+    font-size: 14px;
   }
   .page-content .content-block p{
     font-size: 10px;
